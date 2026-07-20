@@ -406,18 +406,18 @@ h2 {
 }
 
 .maker a {
-    color: var(--secondary);
+    color: #000;
     text-decoration: none;
     font-weight: 900;
     text-transform: uppercase;
-    background: var(--border);
+    background: #fff;
     padding: 2px 8px;
     border-radius: 0;
-    border: 2px solid var(--border);
+    border: 2px solid #000;
 }
 
 .light-mode .maker a {
-    color: #fff;
+    color: #000;
 }
 
 .maker a:hover {
