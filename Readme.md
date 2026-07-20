@@ -1,5 +1,2 @@
-# Souptik Koley
-# Tirtankar Laha
-# Ankan Laha
-# Abhra Das
-# Rajdeep Dutta
+# This is normal website
+
