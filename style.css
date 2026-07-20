@@ -1,0 +1,268 @@
+/* Default set */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #079df8;
+}
+
+
+/* navigation bar */
+
+.navigation {
+    height: 50px;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+   
+}
+
+.navigation nav {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding-right: 40px;
+}
+.navigation nav a{
+    color: black;
+    text-decoration: none; 
+    font-size: 18px;
+    
+}
+
+.navigation nav a:hover {
+    color: yellow;
+    
+}
+
+
+
+/* main-content */
+
+.main-content {
+    height: 170px;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-top: 100px;
+}
+
+h1 {
+    height: 50px;
+    width: 100%;
+    /* border: 2px solid black; */
+    text-align: center;
+}
+
+p {
+    height: 150px;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+/* Snapshots */
+
+.snap h2 {
+    width: 90%;
+    margin-left: 95px;
+    font-weight: 500px;
+    margin-top: 100px;
+    border-bottom: 10px solid yellow;
+    
+}
+
+.snapshots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-wrap: wrap;
+    gap:10px;
+
+}
+.snapshots img {
+    margin-left: 20px;
+    margin-top: 50px;
+    height: 320px;
+    width: 320px;
+    border: 2px solid gold;
+    border-radius: 10px;
+    background-size: cover;
+    box-shadow: 3px 3px 15px rgb(28, 28, 1);
+    transition: all 1s ease 0.2s;
+}
+
+.snapshots img:hover {
+    transform:  scale(1.1);
+    box-shadow: 5px 5px 30px rgba(244, 207, 0, 0.5);
+}
+
+
+
+/* Technology */
+
+.technology h2 {
+    width: 90%;
+    margin-left: 95px;
+    font-weight: 500px;
+    margin-top: 100px;
+    border-bottom: 10px solid yellow;
+}
+
+
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(130px,1fr));
+    gap: 20px;
+}
+
+.items {
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #3a3a3a;
+    background-color:rgb(61, 15, 200);
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 25px;
+    transition: transform 0.3s ease, boxshadow 0.3s ease;
+    
+}
+
+
+.skills-container .items img{
+    height: 48px;
+    width: 48px;
+    filter: invert(75%) sepia(50%) saturate(1000%) hue-rotate(350deg) brightness(110%) contrast(101%);
+    margin-bottom: 20px;
+} 
+
+.skills-container .items h3 {
+     font-size: 1rem;
+    font-weight: 500px;
+    color: whitesmoke;
+}
+
+.items:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+
+/* About Section */
+
+
+.about h2 {
+    width: 90%;
+    margin-left: 95px;
+    font-weight: 500px;
+    margin-top: 100px;
+    border-bottom: 10px solid yellow;
+    
+}
+
+
+.about-section {
+
+    margin-top: 50px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-evenly;    
+    gap: 20px;
+}
+
+.profiles img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: cover;
+}
+
+.profiles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    width: 250px;
+    height: 340px;
+    transition: transform 0.3s ease, boxshadow 0.3s ease;
+}
+
+.profiles h3{
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+
+.profiles p{
+    margin-bottom: 15px;
+    color: white;
+    font-size: large;
+}
+
+.profiles button{
+    padding: 10px 20px;
+    border: none;
+    background: gold;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.profiles button:hover{
+    background: orange;
+}
+
+.profiles:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px 5px rgba(238, 219, 7, 0.3);
+}
+
+
+.link-out {
+    text-decoration: none;
+}
+
+
+
+/* Contact section */
+
+
+.contact h2 {
+    width: 90%;
+    margin-left: 95px;
+    font-weight: 500px;
+    margin-top: 100px;
+    border-bottom: 10px solid yellow;
+    
+}
+
+.contact-section h4 {
+    margin-top: 10px;
+    margin-left: 95px;
+    font-weight: 500px;
+    
+}
+
+.contact-section h5 {
+    margin-top: 10px;
+    margin-left: 95px;
+    font-weight: 500px;
+    
+}
+
+.email {
+    text-decoration: none;
+}
